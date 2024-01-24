@@ -9,4 +9,6 @@ jobs:
       - run: id
       - run: env
       - run: df -h
-      
+      - run: cat /proc/cpuinfo
+      - run: cat /proc/meminfo
+      - run: dpkg -l
